@@ -2,4 +2,7 @@
 As Clay - ASCii LAY
 
 cheap and cheerful ascii layout
-written in rusty c++ 
+written in rusty c++ with disregard
+for portability or anything.
+
+

@@ -1,0 +1,500 @@
+   89  ./asclay 
+   90  make
+   91  make
+   92  ./asclay 
+   93  make
+   94  ./asclay 
+   95  valgrind ./asclay 
+   96  make
+   97  valgrind ./asclay 
+   98  make
+   99  valgrind ./asclay 
+  100  make
+  101  valgrind ./asclay 
+  102  make
+  103  valgrind ./asclay 
+  104  make
+  105  valgrind ./asclay 
+  106  make
+  107  valgrind ./asclay 
+  108  make
+  109  valgrind ./asclay 
+  110  make
+  111  valgrind ./asclay 
+  112  make
+  113  valgrind ./asclay 
+  114  make
+  115  valgrind ./asclay 
+  116  make
+  117  valgrind ./asclay 
+  118  make
+  119  valgrind ./asclay 
+  120  make
+  121  valgrind ./asclay 
+  122  make
+  123  ./asclay 
+  124  make
+  125  ./asclay 
+  126  make
+  127  ./asclay 
+  128  make
+  129  make
+  130  ./asclay 
+  131  make
+  132  ./asclay 
+  133  make
+  134  make
+  135  ./asclay 
+  136  make
+  137  ./asclay 
+  138  make
+  139  make
+  140  ./asclay 
+  141  make
+  142  ./asclay 
+  143  make
+  144  ./asclay 
+  145  make
+  146  ./asclay 
+  147  make
+  148  ./asclay 
+  149  make
+  150  make
+  151  ./asclay 
+  152  make
+  153  ./asclay 
+  154  make
+  155  make
+  156  make
+  157  make
+  158  ./asclay 
+  159  make
+  160  ./asclay 
+  161  make
+  162  ./asclay 
+  163  make
+  164  ./asclay 
+  165  make
+  166  ./asclay 
+  167  valgrind ./asclay 
+  168  wcalc '2 % 1'
+  169  wcalc '1 % 1'
+  170  wcalc '1 % 2'
+  171  wcalc '2% 2'
+  172  wcalc '3% 2'
+  173  wcalc '3/2 + 3% 2'
+  174  man wcalc
+  175  wcalc
+  176  make
+  177  valgrind ./asclay 
+  178  make
+  179  valgrind ./asclay 
+  180  make
+  181  valgrind ./asclay 
+  182  make
+  183  valgrind ./asclay 
+  184  make
+  185  valgrind ./asclay 
+  186  make
+  187  valgrind ./asclay 
+  188  make
+  189  valgrind ./asclay 
+  190  make
+  191  valgrind ./asclay 
+  192  make
+  193  valgrind ./asclay 
+  194  make
+  195  valgrind ./asclay 
+  196  make
+  197  valgrind ./asclay 
+  198  make
+  199  valgrind ./asclay 
+  200  make
+  201  valgrind ./asclay 
+  202  make
+  203  valgrind ./asclay 
+  204  make
+  205  valgrind ./asclay 
+  206  valgrind ./asclay 
+  207  make
+  208  valgrind ./asclay 
+  209  make
+  210  valgrind ./asclay 
+  211  make
+  212  valgrind ./asclay 
+  213  make
+  214  ./asclay 
+  215  make
+  216  make
+  217  ./asclay 
+  218  make
+  219  ./asclay 
+  220  make
+  221  ./asclay 
+  222  make
+  223  ./asclay 
+  224  make
+  225  ./asclay 
+  226  make
+  227  ./asclay 
+  228  ./asclay 
+  229  make
+  230  ./asclay 
+  231  make
+  232  ./asclay 
+  233  make
+  234  ./asclay 
+  235  make
+  236  ./asclay 
+  237  make
+  238  ./asclay make
+  239  make
+  240  ./asclay make
+  241  make
+  242  ./asclay
+  243  make
+  244  ./asclay
+  245  make
+  246  ./asclay
+  247  make
+  248  ./asclay
+  249  valgrind ./asclay
+  250  make
+  251  valgrind ./asclay
+  252  make
+  253  valgrind ./asclay
+  254  make
+  255  valgrind ./asclay
+  256  make
+  257  valgrind ./asclay
+  258  make
+  259  valgrind ./asclay
+  260  make
+  261  valgrind ./asclay
+  262  make
+  263  valgrind ./asclay
+  264  make
+  265  valgrind ./asclay
+  266  make
+  267  valgrind ./asclay
+  268  make
+  269  valgrind ./asclay
+  270  make
+  271  valgrind ./asclay
+  272  make
+  273  valgrind ./asclay
+  274  make
+  275  valgrind ./asclay
+  276  whois jwm-art.net | less
+  277  whois jwm-art.net | less
+  278  cd vdomain/jwm-art.net/
+  279  ssh jwmorris@jwm-art.net
+  280  git pull
+  281  cd layouts/main/dat
+  282  nano about.dat 
+  283  nedit-client ../../../include/jwm_comments.inc 
+  284  grep nocomment *
+  285  grep no_comment *
+  286  cd ../..
+  287  ls
+  288  cd ..
+  289  cd include/
+  290  ls
+  291  grep comment *
+  292  dict telematic
+  293  cd ..
+  294  git status
+  295  cd Projects/asclay/
+  296  ll
+  297  ./asclay 
+  298  make
+  299  ./asclay 
+  300  make
+  301  ./asclay 
+  302  make
+  303  make
+  304  make
+  305  ./asclay 
+  306  make
+  307  ./asclay 
+  308  make
+  309  ./asclay 
+  310  gdb ./asclay 
+  311  make
+  312  make
+  313  ./asclay 
+  314  make
+  315  ./asclay 
+  316  make
+  317  ./asclay 
+  318  make
+  319  ./asclay 
+  320  make
+  321  ./asclay 
+  322  make
+  323  ./asclay 
+  324  make
+  325  make
+  326  make
+  327  make
+  328  ./asclay 
+  329  make
+  330  ./asclay 
+  331  make
+  332  ./asclay 
+  333  make
+  334  ./asclay 
+  335  make
+  336  ./asclay 
+  337  make
+  338  ./asclay 
+  339  make
+  340  ./asclay 
+  341  make
+  342  ./asclay 
+  343  make
+  344  ./asclay 
+  345  make
+  346  ./asclay 
+  347  make
+  348  ./asclay 
+  349  make
+  350  ./asclay 
+  351  make
+  352  ./asclay 
+  353  make
+  354  ./asclay 
+  355  make
+  356  ./asclay 
+  357  make
+  358  ./asclay 
+  359  make
+  360  ./asclay 
+  361  make
+  362  ./asclay 
+  363  make
+  364  ./asclay 
+  365  make
+  366  ./asclay 
+  367  make
+  368  ./asclay 
+  369  gdb
+  370  gdb asclay
+  371  cd ..
+  372  ls
+  373  find . -name '*.c[c]' -exec grep stat {} \;
+  374  find . -name '*.c[c]' -exec grep stat {} -n \;
+  375  find . -name '*.c[c]' -exec grep stat {} -l \;
+  376  find . -name '*.c[c]' -exec grep -w stat {} -l \;
+  377  cd BinView/src/
+  378  less file.cc 
+  379  make
+  380  less file.cc 
+  381  nedit-client file.cc 
+  382  cd ../../asclay/
+  383  ls
+  384  ll
+  385  make
+  386  make
+  387  make
+  388  make
+  389  ./asclay 
+  390  ./asclay strings.cc 
+  391  make
+  392  make
+  393  ./asclay strings.cc 
+  394  make
+  395  ./asclay strings.cc 
+  396  make
+  397  ./asclay ~/Text/wonder.txt 
+  398  less ~/Text/wonder.txt 
+  399  ls
+  400  less ~/Text/justwordsinasentence.txt 
+  401  ./asclay ~/Text/justwordsinasentence.txt 
+  402  make
+  403  ./asclay ~/Text/justwordsinasentence.txt 
+  404  make
+  405  ./asclay ~/Text/justwordsinasentence.txt 
+  406  make
+  407  ./asclay ~/Text/justwordsinasentence.txt 
+  408  make
+  409  ./asclay ~/Text/justwordsinasentence.txt 
+  410  make
+  411  ./asclay ~/Text/justwordsinasentence.txt 
+  412  ./asclay ~/Text/justwordsinasentence.txt 
+  413  make
+  414  ./asclay ~/Text/justwordsinasentence.txt 
+  415  make
+  416  ./asclay ~/Text/justwordsinasentence.txt 
+  417  make
+  418  ./asclay ~/Text/justwordsinasentence.txt  | less
+  419  make
+  420  ./asclay ~/Text/justwordsinasentence.txt  | less
+  421  make
+  422  ./asclay ~/Text/justwordsinasentence.txt  | less
+  423  make
+  424  ./asclay ~/Text/justwordsinasentence.txt  | less
+  425  make
+  426  ./asclay ~/Text/justwordsinasentence.txt  | less
+  427  make
+  428  ./asclay ~/Text/justwordsinasentence.txt  | less
+  429  make
+  430  ./asclay ~/Text/justwordsinasentence.txt  | lessmake
+  431  make
+  432  ./asclay ~/Text/justwordsinasentence.txt  | lessmake
+  433  ./asclay ~/Text/justwordsinasentence.txt  | less
+  434  make
+  435  ./asclay ~/Text/justwordsinasentence.txt  
+  436  ./asclay ~/Text/justwordsinasentence.txt   |less
+  437  make
+  438  ./asclay ~/Text/justwordsinasentence.txt  |less
+  439  make
+  440  ./asclay ~/Text/justwordsinasentence.txt
+  441  make
+  442  ./asclay ~/Text/justwordsinasentence.txt
+  443  make
+  444  ./asclay ~/Text/justwordsinasentence.txt
+  445  less ~/Text/me\ and\ my\ friend.txt 
+  446  less ~/Text/p.txt 
+  447  less ~/Text/hello.txt 
+  448  less ~/Text/kkcss.txt 
+  449  ./asclay ~/Text/kkcss.txt 
+  450  make
+  451  ./asclay ~/Text/kkcss.txt 
+  452  ll
+  453  make
+  454  ./asclay ~/Text/kkcss.txt 
+  455  ./asclay ~/Text/kkcss.txt  | less
+  456  make
+  457  ./asclay ~/Text/kkcss.txt  | less
+  458  make
+  459  ./asclay ~/Text/kkcss.txt  | less
+  460  make
+  461  ./asclay ~/Text/kkcss.txt  | less
+  462  make
+  463  ./asclay ~/Text/kkcss.txt  | less
+  464  make
+  465  ./asclay ~/Text/kkcss.txt  | less
+  466  make
+  467  ./asclay ~/Text/kkcss.txt  | less
+  468  make
+  469  ./asclay ~/Text/kkcss.txt  | less
+  470  make
+  471  ./asclay ~/Text/kkcss.txt  | less
+  472  make
+  473  ./asclay ~/Text/kkcss.txt  | less
+  474  make
+  475  ./asclay ~/Text/kkcss.txt  | less
+  476  make
+  477  ./asclay ~/Text/kkcss.txt  | less
+  478  make
+  479  make
+  480  ./asclay ~/Text/kkcss.txt  | less
+  481  make
+  482  ./asclay ~/Text/kkcss.txt  | less
+  483  make
+  484  ./asclay ~/Text/kkcss.txt  | less
+  485  ls 
+  486  ls ~/Text/
+  487  ls ~/Text/ -hl
+  488  less ~/Text/p.txt 
+  489  less ~/Text/videos_io_errors.txt 
+  490  ./asclay ~/Text/videos_io_errors.txt 
+  491  make
+  492  ./asclay ~/Text/videos_io_errors.txt 
+  493  make
+  494  ./asclay ~/Text/videos_io_errors.txt 
+  495  ./asclay ~/Text/p.txt 
+  496  make
+  497  ./asclay ~/Text/p.txt 
+  498  make
+  499  ./asclay ~/Text/p.txt 
+  500  ssh jwmorris@jwm-art.net
+  501  cd Projects/asclay/
+  502  ./asclay 
+  503  ./asclay --help
+  504  gdb ./asclay 
+  505  history | grep asclay
+  506  ./asclay ~/Text/kkcss.txt  | less
+  507  make
+  508  ./asclay ~/Text/kkcss.txt  | less
+  509  make
+  510  ./asclay ~/Text/kkcss.txt  | less
+  511  ls -lh
+  512  ./asclay strings.cc 
+  513  make
+  514  make
+  515  make
+  516  ./asclay strings.cc 
+  517  wcalc
+  518  make
+  519  ./asclay strings.cc 
+  520  make
+  521  ./asclay strings.cc 
+  522  make
+  523  ./asclay strings.cc 
+  524  make
+  525  ./asclay strings.cc 
+  526  ./asclay strings.cc |less
+  527  make
+  528  ./asclay strings.cc |less
+  529  ./asclay strings.cc 
+  530  make
+  531  ./asclay strings.cc 
+  532  make
+  533  ./asclay strings.cc 
+  534  ls ~/Text/
+  535  less ~/Text/spicy_chilli_pasties.txt 
+  536  ./asclay ~/Text/spicy_chilli_pasties.txt 
+  537  less ~/Text/spicy_chilli_pasties.txt 
+  538  nano poot
+  539  ./asclay poot 
+  540  make
+  541  ./asclay poot 
+  542  make
+  543  make
+  544  ./asclay poot 
+  545  make
+  546  ./asclay poot  |less
+  547  make
+  548  ./asclay poot  |less
+  549  make
+  550  ./asclay poot  |less
+  551  make
+  552  ./asclay poot  |less
+  553  make
+  554  ./asclay poot  |less
+  555  make
+  556  make
+  557  ./asclay poot  |less
+  558  q
+  559  make
+  560  ./asclay poot  |less
+  561  make
+  562  ./asclay poot  |less
+  563  make
+  564  ./asclay poot  |less
+  565  make
+  566  ./asclay poot  |less
+  567  ./asclay strings.cc |less
+  568  make
+  569  ./asclay strings.cc |less
+  570  ./asclay randallandpaul 
+  571  make
+  572  ./asclay randallandpaul 
+  573  make
+  574  ./asclay randallandpaul 
+  575  make
+  576  ./asclay randallandpaul 
+  577  make
+  578  ./asclay randallandpaul 
+  579  make
+  580  ./asclay randallandpaul 
+  581  dmesg
+  582  dmesg > p
+  583  ./asclay p | less
+  584  make
+  585  ./asclay p | less
+  586  ls ~
+  587  ls ~/.* -d
+  588  history > history
