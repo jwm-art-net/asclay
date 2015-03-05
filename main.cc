@@ -30,10 +30,13 @@ int main(int argc, char** argv)
 
     do {
         int did_break = 0;
-        str = get_line(rem, NULL, 42, &rem, true, &did_break);
+        str = get_line(rem, NULL, 33, &rem, true, &did_break);
+
+        //printf("________________str: '%s'________________\n", str);
+
         if (!did_break)
             justify(str, 'j');
-        printf("'%s'\n", str);
+        printf("|%s|\n", str);
         delete [] str;
     } while (rem);
 
