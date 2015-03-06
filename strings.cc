@@ -25,6 +25,19 @@ inline int is_punc(int c, int* did_break)
     return false;
 }
 
+inline int is_punc(int c)
+{
+    const char* punc = " \t!\"£$%^&*()+-=[]{};'#:@~,./<>?\\|\n";
+
+    for (const char* p = punc; *p != '\0'; ++p) {
+        if (c == *p)
+            return true;
+    }
+
+    return false;
+}
+
+
 
 char* get_line(const char* src, char* dest, int length, const char** src_remaining, bool skip_leading, int* did_break)
 {
@@ -63,8 +76,14 @@ char* get_line(const char* src, char* dest, int length, const char** src_remaini
 
     int ip = 0;
 
+/*
     if (*in == '\0')
         printf("at end\n");
+
+    if (is_punc(*in)) {
+        printf("*in == punc: '%c'\n", *in);
+    }
+*/
 
     while (*in != '\0') {
         if (*in == '\n') {
@@ -221,7 +240,7 @@ int justify(char* str, int justify)
                     int spcmod = brkinmiddle / spcatend;
                     p1 = lastspc;
                     while (p1 != firstbrk && spc > 0) {
-                        if (is_punc(*p1, NULL) && !(++modu % spcmod)) {
+                        if (p1 != lastspc && is_punc(*p1, NULL) && !(++modu % spcmod)) {
                             *end-- = ' ';
                             --spc;
                         }
@@ -234,22 +253,24 @@ int justify(char* str, int justify)
                 }
                 else /*if (spcatend < len >> 1) */ { // more spaces at end than in middle
                     p1 = lastspc;
-                    printf("<<<< spcatend %d >= brkinmiddle %d >>>>>\n", spcatend, brkinmiddle);
+//                    printf("<<<< spcatend %d >= brkinmiddle %d >>>>>\n", spcatend, brkinmiddle);
 //                    printf("\n------   here goes   -------\n");
+//                    printf("str:'%s'\n",str);
                     int spcper = spcatend / brkinmiddle;
 //                    printf("spcatend:%d spcinmiddle:%d\n",spcatend,spcinmiddle);
-                    printf("spc:%d spcper:%d\n", spc,spcper);
+//                    printf("spc:%d spcper:%d\n", spc,spcper);
+//                    printf("lastspc:'%c' %p\n",*lastspc,lastspc);
 
                     int lost = spcatend - spcper * brkinmiddle;
                     int spcmod = (lost ? spc / lost : 1);
 //                    printf("lost spc:%d spcmod:%d\n",lost,spcmod);
 
                     while (p1 > firstbrk && spc > 0) {
-                        if (is_punc(*p1, NULL)) {
+                        if (p1 != lastspc && is_punc(*p1, NULL)) {
                             int r = 0;
                             if (lost)
                                 r = ((++modu % spcmod) == 0 ? 1 : 0);
-                            printf("'%c' (%d) ",*p1, r);
+//                            printf("'%c' (%d) ",*p1, r);
                             for (int s = 0; s < spcper + r; ++s, --spc)
                                 *end-- = ' ';
                         }
@@ -257,12 +278,12 @@ int justify(char* str, int justify)
                         --end;
                         --p1;
                     }
-                            printf("\n");
+//                            printf("\n");
                     if (spc > 0) {
-                        printf("spcatend:%d str:%p end:%p spc not inserted: %d\n", spcatend,str,end,spc);
+//                        printf("spcatend:%d str:%p end:%p spc not inserted: %d\n", spcatend,str,end,spc);
                         while (spc-- > 0)
                             *end-- = ' ';
-                        printf("spc STILL not inserted: %d\n", spc);
+//                        printf("spc STILL not inserted: %d\n", spc);
                     }
                 }
             }
